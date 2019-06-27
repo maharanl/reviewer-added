@@ -5,7 +5,7 @@ import sys
 import requests
 import json
 
-'''if __name__ == '__main__':
+if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Run ./build when present.')
     parser.add_argument('--project', metavar='PROJECT_NAME', required=True)  # project/name.git
     parser.add_argument('--refname', required=True)  # refs/heads/master
@@ -27,5 +27,5 @@ import json
     print('GERRIT_SITE=' + gerrit_site)
     print('GERRIT_TMP=' + gerrit_tmp)
     print('GIT_DIR=' + git_dir)
-'''
+
 
