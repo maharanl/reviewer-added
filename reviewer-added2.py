@@ -14,6 +14,7 @@ if __name__ == '__main__':
     parser.add_argument('--newrev', metavar='SHA1', required=True)
     args = parser.parse_args()
 
+
     gerrit_site = os.environ['GERRIT_SITE']
     gerrit_tmp = os.environ['GERRIT_TMP']
     git_dir = os.environ['GIT_DIR']
